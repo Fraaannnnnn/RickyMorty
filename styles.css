@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+/* Estilos para la tarjeta de personaje */
+.card {
+    width: 18rem;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    font-size: 0.875rem;
+}
+
+/* Estilos para la barra de navegación si decides agregar una */
+.navbar {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Estilos para texto de error */
+.error-message {
+    color: #dc3545;
+    font-weight: bold;
+}
